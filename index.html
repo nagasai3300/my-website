@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+<img src="images/myphoto.jpg" alt="My Photo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Hello, I'm Gowri</h2>
+        <p>CSE Student & Web Developer</p>
+        <button onclick="showMessage()">Contact Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a CSE student learning programming,
+            web development and new technologies.
+        </p>
+    </section>
+
+    <section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <h3>HTML</h3>
+            <p>Website structure</p>
+        </div>
+
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>Website design</p>
+        </div>
+
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Website functionality</p>
+        </div>
+
+        <div class="skill">
+            <h3>Python</h3>
+            <p>Programming</p>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project">
+            <h3>Student Portfolio</h3>
+            <p>My first personal portfolio website.</p>
+        </div>
+
+        <div class="project">
+            <h3>Calculator</h3>
+            <p>A simple calculator created using JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <h3>Restaurant Website</h3>
+            <p>A simple website for a restaurant.</p>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <form onsubmit="sendMessage(event)">
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
