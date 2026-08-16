@@ -226,3 +226,38 @@ nav a:hover {
 .project:hover {
     transform: translateY(-8px);
 }
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    section {
+        padding: 50px 20px;
+    }
+
+    #home h2 {
+        font-size: 32px;
+    }
+
+    #home p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .skill,
+    .project {
+        width: 100%;
+        max-width: 300px;
+    }
+
+}
