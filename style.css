@@ -199,3 +199,30 @@ img {
     cursor: pointer;
     font-size: 16px;
 }
+body {
+    background: #ffffff;
+    color: #222;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+.skill,
+.project {
+    transition: 0.3s;
+}
+
+.skill:hover,
+.project:hover {
+    transform: translateY(-8px);
+}
